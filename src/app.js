@@ -56,7 +56,7 @@ app.get("/help", (req, res) => {
 
 // @type    GET
 // @route   /weather
-// @desc    route for feth to Weather data
+// @desc    route for fetch to Weather data
 // @access  PUBLIC
 app.get("/weather", (req, res) => {
   if (!req.query.address) {
